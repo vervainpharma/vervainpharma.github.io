@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Under Construction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
             margin: 0;
@@ -38,11 +39,68 @@
             font-size: 4em;
             margin-bottom: 20px;
         }
+
+        .contact-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px 0;
+            font-size: 1.1em;
+        }
+
+        .contact-icon {
+            margin-right: 15px;
+            width: 30px;
+            text-align: center;
+            color: #4a9eff;
+        }
+
+        .contact-item a {
+            color: #4a9eff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: #7bb3ff;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Coming soon.</h1>
+        
+        <div class="contact-section">
+            <h2 style="font-size: 1.3em; margin-bottom: 20px;">Get in touch</h2>
+            
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <a href="mailto:orders@vervainpharma.cc">orders@vervainpharma.cc</a>
+            </div>
+            
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fab fa-reddit"></i>
+                </div>
+                <a href="https://reddit.com/u/VervainPharma_CC" target="_blank">u/VervainPharma_CC</a>
+            </div>
+            
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <a href="https://bsky.app/profile/vervainpharma.cc" target="_blank">vervainpharma.cc</a>
+            </div>
+        </div>
     </div>
 </body>
 </html>
